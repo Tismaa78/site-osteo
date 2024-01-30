@@ -1,0 +1,89 @@
+.title-page {
+    background-color: #d5d5d5;
+}
+
+.container {
+    background-color: #f6f6f6;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+.listing-pb a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.anchor {
+    padding-top: 90px;
+}
+
+.osteo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.osteo-footer a {
+    color: white;
+}
+
+.horaire {
+
+}
+
+#navbarResponsive {
+    justify-content: center;
+}
+
+.way-work {
+    align-self: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.scroll-down {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 30px;
+    bottom: 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: scroll-down_btn-animation 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes scroll-down_btn-animation {
+    0%{
+        opacity: 0;
+        transform: translateY(0rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
+}
